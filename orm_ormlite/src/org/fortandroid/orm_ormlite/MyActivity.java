@@ -67,7 +67,7 @@ public class MyActivity extends Activity {
     private void initDb() {
         this.dbHelper = new DatabaseHelper(this);
         try {
-            if (!dbHelper.open()) {
+            if (dbHelper.open()) {
                 this.dbHelper.populateDatabaseFromScript();
             }
         } catch (IOException e) {
@@ -85,9 +85,8 @@ public class MyActivity extends Activity {
     }
 
     private void displayContactsWithTheirAddresses(List<Contact> contacts) {
-        // TODO: clear children of layout containing search results
         LinearLayout searchResultsLayout = (LinearLayout)findViewById(R.id.searchResults);
-        searchResultsLayout.removeAllViews();   // Clear the currently displayed contacts
+        searchResultsLayout.removeAllViews(); // Clear the currently displayed contacts
         if (contacts != null && contacts.size() > 0) {
 
             // Display the contacts
