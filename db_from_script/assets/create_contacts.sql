@@ -1,8 +1,10 @@
 
+DROP TABLE contacts;
 CREATE TABLE contacts(
   id integer primary key,
   name text
 );
+DROP TABLE addresses;
 CREATE TABLE addresses(
   id integer primary key ,
   contact_id integer,
