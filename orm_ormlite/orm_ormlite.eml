@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/orm_ormlite"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="$MODULE_DIR$/libs/ormlite-android-4.42.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/ormlite-android-4.42.jar!/"/>
+	</lib>
+	<lib name="$MODULE_DIR$/libs/ormlite-core-4.42.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/ormlite-core-4.42.jar!/"/>
+	</lib>
+</component>

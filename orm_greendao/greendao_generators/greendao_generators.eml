@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../greendao_android/out/test/greendao_generators"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="$MODULE_DIR$/lib/greenDAO-generator.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../greendao_generators/lib/greenDAO-generator.jar!/"/>
+	</lib>
+	<lib name="$MODULE_DIR$/lib/freemarker.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../greendao_generators/lib/freemarker.jar!/"/>
+		<relative-module-javadoc project-related="jar://$PROJECT_DIR$/../greendao_generators/lib/greenDAO-generator-javadoc.jar!/"/>
+	</lib>
+</component>
