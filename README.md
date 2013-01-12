@@ -1,7 +1,9 @@
 fort_android_db_and_orm
 =======================
 
-This repo contains four very basic code examples:
+Created for: http://www.meetup.com/FortCollins-Android/events/94572822/
+
+This repo contains four basic code examples:
 
 - [db_as_asset](https://github.com/plaxdan/fort_android_db_and_orm/tree/master/db_as_asset): Example of seeding an Android application with an SQLite database by copying an existing database from the assets dir.
 - [db_from_script](https://github.com/plaxdan/fort_android_db_and_orm/tree/master/db_from_script): Example of populating a database by executing insert statements from an SQL file.
